@@ -90,7 +90,36 @@
 
         <p class="section"><b>Introduction</b></p>
         <div style="text-align: center">
-	    <video width="80%" playsinline="" autoplay="" loop="" preload="" muted=""> <source src="./assets/T2I-CompBench_PPT for github demo_0709.mp4" type="video/mp4"> </video>
+            <p>
+                The fusion of vision and language in artificial intelligence has led to the rise of powerful 
+                <strong>Vision-Language Models (VLMs)</strong>, with OpenAI’s 
+                <a href="https://openai.com/research/clip" target="_blank">Contrastive Language-Image Pre-training (CLIP)</a> 
+                emerging as a groundbreaking approach. CLIP has demonstrated remarkable success in zero-shot classification and 
+                multimodal tasks, but its limitations in multi-object scenarios remain underexplored.
+            </p>
+    
+            <p>
+                In <em>CLIP Under the Microscope: A Fine-Grained Analysis of Multi-Object Representation</em>, we systematically 
+                investigate CLIP’s performance when processing images with multiple objects. Using our newly developed 
+                <strong>ComCO dataset</strong>, we uncover key biases in CLIP’s encoders: the <strong>text encoder</strong> favors 
+                the first-mentioned object in captions, while the <strong>image encoder</strong> prioritizes larger objects. These 
+                biases result in systematic inconsistencies, particularly when captions are restructured or objects are resized.
+            </p>
+    
+            <p>
+                Through rigorous experimentation, we trace the origins of these biases to CLIP’s contrastive training process and 
+                dataset characteristics. Our findings extend beyond CLIP, influencing broader applications in 
+                <strong>text-to-image generation</strong> and <strong>multimodal large language models (MLLMs)</strong>.
+            </p>
+    
+            <span class="link-block">
+                <a href="https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <svg class="svg-inline--fa fa-database fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z"></path></svg><!-- <i class="fas fa-database"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Dataset</span>
+                </a>
+            </span>
         </div>
 	<p class="section">&nbsp;</p>
     <p class="section"><b>Methodology</b></p>
