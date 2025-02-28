@@ -91,19 +91,19 @@
         <p class="section">&nbsp;</p>
 
         <p class="section"><b>Introduction</b></p>
-        <div style="text-align: center">
+        <div style="text-align: justify">
             <p>
                 The fusion of vision and language in artificial intelligence has led to the rise of powerful 
-                <strong>Vision-Language Models (VLMs)</strong>, with OpenAI’s 
+                <strong>Vision-Language Models (VLMs)</strong>, with OpenAI's 
                 <a href="https://openai.com/research/clip" target="_blank">Contrastive Language-Image Pre-training (CLIP)</a> 
                 emerging as a groundbreaking approach. CLIP has demonstrated remarkable success in zero-shot classification and 
                 multimodal tasks, but its limitations in multi-object scenarios remain underexplored.
                 In <em>CLIP Under the Microscope: A Fine-Grained Analysis of Multi-Object Representation</em>, we systematically 
-                investigate CLIP’s performance when processing images with multiple objects. Using our newly developed 
-                <strong>ComCO dataset</strong>, we uncover key biases in CLIP’s encoders: the <strong>text encoder</strong> favors 
+                investigate CLIP's performance when processing images with multiple objects. Using our newly developed 
+                <strong>ComCO dataset</strong>, we uncover key biases in CLIP's encoders: the <strong>text encoder</strong> favors 
                 the first-mentioned object in captions, while the <strong>image encoder</strong> prioritizes larger objects. These 
                 biases result in systematic inconsistencies, particularly when captions are restructured or objects are resized.
-                Through rigorous experimentation, we trace the origins of these biases to CLIP’s contrastive training process and 
+                Through rigorous experimentation, we trace the origins of these biases to CLIP's contrastive training process and 
                 dataset characteristics. Our findings extend beyond CLIP, influencing broader applications in 
                 <strong>text-to-image generation</strong> and <strong>multimodal large language models (MLLMs)</strong>.
             </p>
