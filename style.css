@@ -1,8 +1,16 @@
 /* CSS Document */
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-
-
+.subtitle.is-5 {
+	font-size: 1.25rem;
+}
+publication-awards {
+	color: #ff3860;
+	font-weight: bolder;
+}
+.subtitle, .title {
+	word-break: break-word;
+}
 body {
 	font-family: Google Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 	font-size: 16px;
