@@ -6,6 +6,13 @@
 	text-align: center !important;
 }
 
+.subtitle.is-5.publication-awards {
+	color: #ff3860;
+	font-weight: bolder;
+	text-align: center !important;
+	margin-bottom: 1rem;
+}
+
 .subtitle, .title {
 	word-break: break-word;
 }
