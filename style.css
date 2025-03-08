@@ -5,12 +5,13 @@
 	font-size: 1.25rem;
 	text-align: center !important;
 }
+
+.subtitle, .title {
+	word-break: break-word;
+}
 .publication-awards {
 	color: #ff3860;
 	font-weight: bolder;
-}
-.subtitle, .title {
-	word-break: break-word;
 }
 body {
 	font-family: Google Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
